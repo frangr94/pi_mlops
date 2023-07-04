@@ -26,7 +26,7 @@ def peliculas_idioma(Idioma: str):
         if Idioma in i:
             count+=1
     
-    respuesta = "{} de peliculas producidas en: {}".format(count,idioma_iso)
+    respuesta = "{} peliculas producidas en: {}".format(count,Idioma)
 
     return respuesta
 
