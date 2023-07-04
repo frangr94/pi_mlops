@@ -8,7 +8,7 @@ import pandas as pd
 app = FastAPI()
 
 
-df = pd.read_csv('data_prueba.csv')
+df = pd.read_csv('data_api.csv')
 df['prod_companies']=df.prod_companies.str.strip('''""''') # tuve que emparchar esto
 
 
